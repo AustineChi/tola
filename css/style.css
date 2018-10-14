@@ -2455,7 +2455,8 @@ img{
 }
 
 .main-footer.style-two{
-	background:#f8fbff;
+	color: #fff;
+	background: #090913
 }
 
 .main-footer .auto-container{
@@ -2470,7 +2471,7 @@ img{
 	top:0px;
 	width:100%;
 	height:100%;
-	background:url(../images/background/pattern-1.png) center bottom no-repeat;
+	background:url(../images/background/7.png) center bottom no-repeat;
 	z-index:1;
 }
 
@@ -2498,7 +2499,7 @@ img{
 	font-weight:600;
 	letter-spacing:0px;
 	margin-bottom:25px;
-	color:#222328;
+	color:#fff;
 }
 
 .main-footer .about-widget .logo{
@@ -2549,7 +2550,7 @@ img{
 }
 
 .main-footer .contact-info li a{
-	color:#222222;	
+	color:#fff;	
 }
 
 .main-footer .newsletter-widget{
@@ -2614,7 +2615,7 @@ img{
 	position:relative;
 	display:block;
 	line-height:24px;
-	color:rgba(0,0,0,0.60);
+	color:#fff;
 	text-transform:capitalize;	
 }
 
@@ -2980,7 +2981,8 @@ img{
 	top:0px;
 	width:100%;
 	height:100%;
-	background:url(../images/background/bg-page-title.png) center 65% no-repeat;	
+	background: linear-gradient( rgba(8, 8, 8, 0.8), rgba(1, 4, 7, 0.9) ), url(../images/background/bg-page-title.jpg);
+    background-position:center 65%;
 }
 
 .page-title .auto-container{
@@ -2991,7 +2993,7 @@ img{
 .page-title h1{
 	position:relative;
 	font-size:56px;
-	color:#00000a;
+	color:#fff;
 	line-height:1.2em;
 	font-weight:700;
 	letter-spacing:1px;
@@ -3010,7 +3012,7 @@ img{
 	top:14px;
 	left:2px;
 	width:158px;
-	border-bottom:2px solid #0c141c;	
+	border-bottom:2px solid #fff;	
 }
 
 .page-title .bread-crumb{
@@ -3023,7 +3025,7 @@ img{
 	line-height:30px;
 	margin-right:20px;
 	font-weight:400;
-	color:#00000a;
+	color:#fff;
 	font-size:18px;
 	text-transform:capitalize;
 }
@@ -3048,7 +3050,7 @@ img{
 }
 
 .page-title .bread-crumb li a{
-	color:#00000a;
+	color:#fff;
 	font-weight:400;
 	transition:all 0.3s ease;
 	-moz-transition:all 0.3s ease;
@@ -4772,6 +4774,11 @@ margin-bottom: 30px
 	font-size: 16.7px;
     font-weight: 100;
     letter-spacing: 4px;
+}
+
+.wik6 {
+	height: 53px;
+   margin-bottom: 7px
 }
 
 @media only screen and (max-width: 800px) {
